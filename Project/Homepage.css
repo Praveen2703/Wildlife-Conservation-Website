@@ -1,0 +1,71 @@
+.column
+{
+float:left;
+width:20%;
+height:50px;
+font-size:25px;
+text-align:center;
+border:black;
+margin-top:30px;
+}
+.column a
+{
+text-decoration:none;
+color:black;
+}
+.content
+{
+  display: none;
+  position: absolute;
+  background-color: #476b6b;
+  min-width: 234px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+}
+.dropbtn {
+  color: black;
+  font-size:25px;
+  width:262px;
+  padding: 10px;
+  border: black;
+  cursor:pointer;
+  font-family:serif;
+}	
+.dropbtn:hover
+{
+color:white;
+}				 
+.content a
+{
+  color: black;
+  padding: 12px 16px;
+  font-family:Arial, Helvetica, sans-serif;
+  display: block;
+}
+.column:hover{opacity:0.9;}
+.content a:hover{background-color:#00cc00;}
+.sec{
+background-color:#7a7a52;
+opacity:0.7;
+font-family:Arial;
+position:relative;
+color:black;
+width:92%;
+font-size:20px;
+left:30px;
+right:4px;
+padding:20px;
+top:120px;
+z-index: -1;
+height:500px;
+}
+#para{
+font-family:cursive;
+}
+body
+{       
+background-image:url(fort.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+background-position:fixed;
+}

@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>WILDLIFE</title>
+<link rel="stylesheet" href="Homepage.css"></link>
+</head>
+<body>
+<div class="column" id="c" style="background-color:#003399"  onclick="openfauna()"><button class="dropbtn"  style="background-color:#003399">FAUNA</button>
+<div class="content" id="fauna">
+<div><a href="endang.html">Endangered</a></div>
+<div><a href="rare.html">Rare</a></div>
+<div><a href="vulnerable.html">Vulnerable</a></div>
+<div><a href="extinct.html">Extinct</a></div> 
+</div></div>
+<div class="column" style="background-color:#990033" onclick="openflora()"><button class="dropbtn" style="background-color:#990033">FLORA</button>
+<div class="content"  id="flora">
+<div><a href="herbs.html">Herbs</a></div>
+<div><a href="Shrubs.html">Shrubs</a></div>
+<div><a href="trees.html">Trees</a></div>
+</div>
+</div>
+<div class="column" style="background-color:#0E8465;"><a href="threat.html"><button  class="dropbtn" style="background-color:#0E8465;">CONSERVATION</button></a></div>
+<div class="column" style="background-color:#660066;"><a href="about_us.html"><button  class="dropbtn" style="background-color:#660066;">ABOUT US</button></a></div>
+<a href="join.php"><div class="column" style="background-color:#999900;color:black;"><center>LOG OUT</center></div></a>
+<section class="sec">
+<h1>HI FRIENDS!!!</h1>
+<p id="para"><b>Due to lack of knowledge in the field of wildlife,we have lost many salient wildlife species and vegetation.The beneficial uses or functions of wildlife are numerous. 
+In agriculture these include not only the cropping of species growing in the wild but also their potential for future cultivation and role in such processes as crop pollination and biological control of pests.
+Wild animals are used in medicine for essential research; wild plants provide a source of drugs, and wild places can help to relieve the tension and stress associated with modern living. 
+Wildlife is also a sensitive indicator of environmental change.Each organism in the Earth has its unique place in the food chain and also in maintaining the ecological balance.
+So if the chain is broken,it would create a huge damage in the human life.Even we could have destroyed CORONA VIRUS within one month if we had some potent herbs.
+Considering  the importance of wildlife ,we have made this website to let you all know the importance of wildlife and its conservation.
+</b></p>
+<p id="para"> <b>Wildlife conservation can be defined as the practice of protecting animal species and their habitats. Which includes protecting both the animals and their habitat.
+Generally, we apply wildlife conservation to species that are in danger of becoming extinct by unnatural causes. 
+These can be causes such as pollution, climate change, unreasonable laws.
+ Moreover, quotas can lead to excessive hunting and high number of wild animals in captivity.
+</b></p>
+<br>
+</section>
+<script>
+function openfauna()
+{
+document.getElementById("flora").style.display ="none";
+if(document.getElementById("fauna").style.display == "none")
+document.getElementById("fauna").style.display = "block";
+else
+document.getElementById("fauna").style.display ="none";
+}
+function openflora()
+{
+document.getElementById("fauna").style.display ="none";
+if(document.getElementById("flora").style.display == "none")
+document.getElementById("flora").style.display = "block";
+else
+document.getElementById("flora").style.display ="none";
+}
+</script>
+</body>
+</html>
